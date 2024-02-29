@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "upcoming-birthdays-client-side-solution",
+    "id": "3bce6553-ef8b-4cb6-9cc3-e7221fff11dd",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "upcoming-birthdays description"
+      },
+      "longDescription": {
+        "default": "upcoming-birthdays description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "upcoming-birthdays Feature",
+        "description": "The feature that activates elements of the upcoming-birthdays solution.",
+        "id": "b8f755bb-45a2-4fe4-9a89-3338ea3cab94",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/upcoming-birthdays.sppkg"
+  }
+}

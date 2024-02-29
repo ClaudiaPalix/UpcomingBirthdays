@@ -1,0 +1,115 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.parentDiv{
+  background: none;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.upcomingBirthdays {
+  border: 2px solid rgb(211, 209, 209);
+  max-width: 400px;
+  width: 100%;
+  background: #fff;
+  max-height: 340px;
+  overflow-y: auto;
+  scrollbar-width: thin;  
+  scrollbar-color: rgb(211, 209, 209) #eee; 
+  padding: 30px 20px;
+
+  &::-webkit-scrollbar {
+    width: 8px;  
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgb(211, 209, 209);  
+    border-radius: 4px;  
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #eee; 
+    border-radius: 4px;  
+  }
+
+  h3 {
+    color: #333;
+    font-weight: 500.5;
+  }
+
+  .innerContents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+
+  .profileSection {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+  .imgBox {
+    width: 60px;
+    height: 60px;
+    background: #bebdbd;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-bottom: 5px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .name {
+    width: 160px;
+  }
+
+    h5 {
+      color: #333;
+      font-size: 16px;
+      font-weight: 500.5;
+      
+    }
+
+    span {
+      padding-top: 1px;
+      color: #999;
+      font-size: 12px;
+      display: block;
+      i {
+        font-style: normal;
+        font-size: 10px;
+        position: relative;
+        bottom: 1px;
+      }
+    }
+  }
+
+  .chatBtn {
+    background: transparent;
+    border: 1px solid #4f52bd;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: #4f52bd;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+
+    &:hover {
+      background: #4f52bd;
+      color: #fff;
+    }
+  }
+}

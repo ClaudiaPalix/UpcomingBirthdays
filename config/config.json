@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "upcoming-birthdays-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/upcomingBirthdays/UpcomingBirthdaysWebPart.js",
+          "manifest": "./src/webparts/upcomingBirthdays/UpcomingBirthdaysWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "UpcomingBirthdaysWebPartStrings": "lib/webparts/upcomingBirthdays/loc/{locale}.js"
+  }
+}
